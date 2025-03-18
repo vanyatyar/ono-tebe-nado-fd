@@ -4,9 +4,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   width: 1100px;
-  left: 0px;
-  top: 0px;
-  padding: 95px 53px 90px 50px;
+  padding: 120px 53px 90px 50px;
 }
 
 .header-menu {
@@ -44,7 +42,7 @@
 }
 
 .header__logo-image {
-  width: 129px;
+  width: 150px;
   height: 104px;
 }
 
@@ -163,10 +161,11 @@
   position: relative;
   margin-bottom: 90px;
   padding: 0 24px 55px;
-  }
+}
 
 .lots__heading {
-  margin-left: 4px;
+  display: grid;
+  margin-right: 84px;
   padding-top: 5px;
   font-weight: bold;
   font-size: 40px;
@@ -178,18 +177,18 @@
 .lots__card-list {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 15px;
   list-style-type: none;
   flex-wrap: wrap;
   flex-grow: 1;
-  
+
 }
 
 .lots__card-list-item {
   box-sizing: border-box;
   border: 2px solid white;
   gap: 20px;
-  max-width: 800px;
+  max-width: 100%;
   padding: 50px 25px;
 }
 
@@ -244,25 +243,28 @@
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  }
+}
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
+
 .card_type_film {
- background-image: url(../images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .lots-link {
-  position: relative;
-  top: 28px;
-  left: 42px;
+  display: grid;
+  margin-top: 26px;
+  margin-left: 42px;
   font-weight: 400px;
   font-size: 20px;
+  text-underline-offset: 5px;
+
 }
 
 .about {
-  padding: 35px 24px 100px 24px;
+  padding: 10px 24px 100px 24px;
 }
 
 .about__column {
@@ -272,17 +274,15 @@
 }
 
 .about__title {
-  position: relative;
-  top: 5px;
+  margin-top: 5px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .about__text {
-  position: relative;
-  top: 10px;
   display: grid;
+  margin-top: 7px;
   row-gap: 27px;
   font-size: 20px;
   font-weight: 400;
@@ -315,7 +315,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 92px;
+  padding-top: 82px;
   padding-left: 50px;
   padding-bottom: 180px;
   font-size: 18px;

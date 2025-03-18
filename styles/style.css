@@ -69,7 +69,7 @@
 .cover {
   position: relative;
   margin-bottom: 180px;
-  padding: 165px 50px 30px 50px;
+  padding: 165px 50px 40px 50px;
   color: #fff;
   font-family: "Raleway";
   text-transform: uppercase;
@@ -101,25 +101,21 @@
   display: block;
   text-align: start;
   position: relative;
-  margin-bottom: 10px;
-  margin-left: 6px;
   font-size: 100px;
   letter-spacing: 27px;
-
 }
 
 .aligned-text_center {
   text-align: center;
-  margin-top: 16px;
-  margin-left: 31px;
+  margin-top: 20px;
+  margin-left: 24px;
   letter-spacing: 30px;
-
 }
 
 .aligned-text_right {
   text-align: end;
-  margin-top: 20px;
-  margin-right: -32px;
+  margin-top: 18px;
+  margin-right: -27px;
   letter-spacing: 0.3em;
 }
 
@@ -165,8 +161,7 @@
 
 .lots__heading {
   display: grid;
-  margin-right: 84px;
-  padding-top: 5px;
+  margin-left: 37px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -189,7 +184,7 @@
   border: 2px solid white;
   gap: 20px;
   max-width: 100%;
-  padding: 50px 25px;
+  padding: 50px 20px;
 }
 
 .card-__link {
@@ -302,7 +297,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 47px;
+  margin-left: 44px;
 }
 
 .about__logo-image {
@@ -317,7 +312,7 @@
   justify-content: space-between;
   padding-top: 82px;
   padding-left: 50px;
-  padding-bottom: 120px;
+  padding-bottom: 90px;
   font-size: 18px;
   line-height: 1.2;
 

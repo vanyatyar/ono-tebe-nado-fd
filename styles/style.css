@@ -177,7 +177,7 @@
 .lots__card-list {
   display: flex;
   justify-content: space-between;
-  gap: 15px;
+  gap: 65px;
   list-style-type: none;
   flex-wrap: wrap;
   flex-grow: 1;

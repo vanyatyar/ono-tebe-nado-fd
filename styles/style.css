@@ -21,7 +21,6 @@
 }
 
 .header__menu-item {
-
   list-style-type: circle;
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -46,7 +45,7 @@
   height: 104px;
 }
 
-.header__address-link {
+.address-link {
   text-decoration: underline;
 }
 
@@ -57,14 +56,10 @@
   font-style: normal;
   width: 245px;
   word-wrap: normal;
-}
-
-.header__address {
   justify-self: end;
-
 }
 
-.header__address-list {
+.address-list {
   list-style-type: none;
   margin-left: 10px;
   text-decoration: none;
